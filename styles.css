@@ -1,0 +1,612 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+
+}
+
+/*de navbar prueba
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333B3F;
+}
+.logo{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+header{
+    display: flex;
+    background-color: #353A40;
+    justify-content: space-between;
+    height: 70px;
+    color: white;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.ConfBsAs{
+    display: flex;
+    align-items: center;
+}
+
+.ConfBsAs img{
+    height: 15px;
+    padding: 15px;
+    margin-right: 10px;
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+    display: flex;
+    
+}
+
+
+
+nav a{
+    display: flex;
+    color: gray;
+    text-decoration: none;
+    padding-right: 10px;
+    align-items: center;
+}
+
+nav a.conferencia{
+    color: white;
+}
+
+nav a.tickets{
+    color: #21963E;
+}
+
+
+a{
+    text-decoration: none;
+    color: gray;
+}
+
+nav a:hover{
+    color: white;
+}
+
+de navbar prueba*/
+
+
+/*de <nav class="navbar navbar-expand-lg bg-body-tertiary">*/
+
+#navbar{
+    background-color: #333B3F;
+}
+
+#navbar .navbar-brand{
+    color: white;
+}
+
+#navbar a{
+    color: gray;
+}
+
+#navbar li{
+    padding-left: 10px;
+}
+
+#navbar li .nav-link-links{
+    color: gray;
+    text-decoration: none;
+}
+
+#navbar li .nav-link-conferencia{
+    text-decoration: none;
+    color: white;
+}
+
+#navbar li .nav-link-tickets{
+    text-decoration: none;
+    color: #21963E;
+}
+#navbar li .nav-link-links:hover{
+    color: white;
+}
+
+#navbar li .nav-link-conferencia:hover{
+    color: #F9C20D;
+}
+
+#navbar li .nav-link-tickets:hover{
+    color: white;
+}
+
+
+
+
+
+/*
+header{
+    background-color: #353A40;
+}
+header.logo{
+    margin: 0;
+    padding: 25px 30px;
+    color: white;
+    font-size: 2em;
+}
+header.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#navbar .container{
+    margin: 0 ;
+  
+}
+.navbar-light .navbar-brand:hover{
+    color: #98C83E;
+    
+}
+#navbar .nav-item .a{
+    color: #DC3747;
+}
+
+*/
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+.carousel-caption{
+    bottom: 220px;
+    z-index: 2;
+}
+.carousel-caption h5{
+    font-size: 30px;
+    text-align: right;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.carousel-caption p.parrafo{
+    width: 60%;
+    margin: auto;
+    font-size: 16px;
+    text-align: right;
+}
+.carousel-inner::before{
+    content: '';
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #353A40;
+    z-index: 1;
+}
+
+/*
+.nav-link:hover{
+    color: white !important;
+}
+
+.navbar-dark .navbar-brand{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover{
+    color: #F9C20D;
+}
+
+/*header pruebarecopilatoria
+header .logo{
+    margin: 0;
+    margin-top: 0;
+    padding: 25px 30px;
+    
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 30%;
+    text-decoration: none;
+
+}
+
+header nav{
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 25px;
+    padding-right: 0;
+    padding-left: 0;
+    text-decoration: none;
+    color: red;
+}
+*/
+
+/*nuevo ver si lo dejo
+
+.section-header{
+    padding-bottom: 30px;
+}
+.navbar-brand{
+    
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link{
+    padding-right: 0;
+    padding-left: 0;
+    color: gray;
+}
+*/
+
+#octubre{
+    color: white;
+    font-size: 11px;
+    padding-right: 0;
+}
+
+/*cartas oradores*/
+#orador .row .button-javascript{
+    display: inline-block;
+    padding: 1px 8px;
+    font-weight: bold;
+    border: 2px;
+    padding-left: 2px 2px;
+    border-radius: 3px;
+    color: black;
+    background-color: #F9C20D;
+}
+
+#orador .row .button-react{
+    display: inline-block;
+    padding: 1px 8px;
+    margin: 8px;
+    font-weight: bold;
+    border: 2px;
+    padding-left: 5px;
+    border-radius: 3px;
+    color: white;
+    background-color: #1EA1B5;
+}
+
+
+#orador .row .button-negocios{
+    display: inline-block;
+    padding: 1px 8px;
+    font-weight: bold;
+    border: 2px;
+    padding-left: 5px;
+    border-radius: 3px;
+    color: white;
+    background-color: #6B747D;
+}
+
+#orador .row .button-startups{
+    display: inline-block;
+    padding: 1px 8px;
+    margin: 8px;
+    font-weight: bold;
+    border: 2px;
+    padding-left: 5px;
+    border-radius: 3px;
+    color: white;
+    background-color: #DC3747 ;
+}
+
+
+
+
+/*SLIDER AREA*/
+
+.slider-area{
+    background-image: url(imagenes_integrador_front/ba1.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    color: #fff;
+    position: relative;
+}
+.slider-area:before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(360deg,#000,transparent);
+}
+.slider-text h3{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: right;
+}
+.slider-text a{
+    padding: 10px 15px;
+    background-color: green;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    margin-top: 5px;
+    text-decoration: none;
+    text-align: right;
+}
+.slider-text{
+    text-align: right;
+    padding-top: 20px;
+}
+
+
+/*about area BS AS OCTUBRE*/
+#seccionOctubre{
+    background-color: #353A40;
+}
+.about-img img{
+    width: 100%;
+}
+.item-text{
+    padding-top: 20px;
+    padding-left: 15px;
+}
+.about-img{
+    padding-right: 15px;
+}
+.item-text h4{
+    margin-bottom: 30px;
+}
+
+/*cards oradores*/
+.oradores-area{
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    z-index: 1;
+}
+.oradores-area:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.oradores{
+    text-align: left;
+    font-size: 12px;
+}
+.img-area{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    overflow: visible;
+}
+.img-area img{
+    width: 100%;
+}
+.oradores{
+    text-align: left;
+    border: 0.5px solid rgb(135, 134, 134);
+    color: black;
+    padding: 15px 40px;
+}
+
+
+
+/*para texto sobre carousel
+
+display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("/imagenes_integrador_front/ba1.jpg");
+    background-size: cover;
+    background-position: center center;
+*/
+/*BOTON ENVIAR FORMULARIO VER*/
+
+
+#formulario .p{
+    text-decoration: dotted;
+}
+
+#boton{
+    background-color: #98C83E;
+    color: white;
+    padding: 12px;
+    border: 0;
+}
+
+#boton:hover{
+    cursor: pointer;
+}
+
+#enviar{
+    width: 100px;
+    height: auto;
+}
+
+
+
+/* */
+.section-padding{
+    padding: 100px 0;
+}
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+.carousel-caption{
+    bottom: 220px;
+    z-index: 2;
+}
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    margin-top: 25px;
+    
+}
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 16px;
+    /*line-height: 1.9;*/
+    position: absolute;
+    text-align: right;
+}
+.carousel-inner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.7);
+    z-index: 1;
+}
+
+/*
+.navbar-nav a{
+    font-size: 15px;
+    background-color: #353A40;
+}
+.navbar-light .navbar-brand{
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+}
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover{
+    color: #F9C20D ;
+}
+*/
+
+.w-100{
+    height: 100vh;
+}
+.card-group button{
+    background-color: #F9C20D;
+}
+
+/*footer*/
+
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    background-color: #1C3C4C;
+    padding: 20px ;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+.footer a:hover{
+    color:#1EA1B5
+}
+
+
+.footer{
+    text-decoration: none;
+    text-align: center;
+    padding-top: 0;
+    display: grid;
+    padding-left: 80px;
+    color: white;
+}
+
+.footer-link{
+    color: white
+}
+
+
+
+.w-100{
+    height: 100vh;
+}
+
+
+
+/*responsive*/
+@media only screen and (min-width:768px) and (max-width: 991px){
+    .carousel-caption{
+        bottom: 370px;
+    }
+    .carousel-caption p{
+        width: 100%;
+    }
+
+}
+
+
+
+
+
+@media only screen and (max-width: 767px){
+    .navbar-nav{
+        text-align: center;
+    }
+    .carousel-caption{
+        bottom: 125px;
+    }
+    .carousel-caption h5{
+        padding: 17x;
+    }
+    .carousel-caption a{
+        padding: 10px 15px;
+    }
+    .carousel-caption p{
+        width: 100%;
+        line-height: 1.6;
+        font-size: 12px;
+    }
+}
+.about-text{
+    padding-top: 50px;
+}
+
+
+@media(max-width: 555px){
+    footer{
+        width: 100%;
+        margin-bottom: 5px;
+        padding-bottom: 12px;
+        text-align: center;
+    }
+}
+
+    
